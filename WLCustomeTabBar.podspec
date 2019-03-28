@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WLCustomeTabBar"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A short description of WLCustomeTabBar."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/l231854/WLCustomeTabBar.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/l231854/WLCustomeTabBar.git", :tag => "0.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "WLCustomeTabBar/Resource/image/*.png"
+  s.resource_bundle ={ 'WLResource' => 'WLCustomeTabBar/Resource/image/*.png' } 
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
